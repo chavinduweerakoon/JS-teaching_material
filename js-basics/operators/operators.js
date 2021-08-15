@@ -100,10 +100,10 @@ console.log( '1' == 1); // true // convert the type of right to match left
   console.log(1 | 2); //bitwise OR
   console.log(1 & 2); //bitwise AND
 
-  eg- access control system
-  read - 00000100
-  write - 00000110
-  execute - 00000111
+//   eg- access control system
+//   read - 00000100
+//   write - 00000110
+//   execute - 00000111
 
   const readPermission = 4;
   const writePermission = 2;
@@ -114,6 +114,11 @@ console.log( '1' == 1); // true // convert the type of right to match left
 
   let message = (myPersmission ? readPermission) ?'YES' : 'NO';
   console.log(message);
+
+
+  // precedence of operators ------------------------------------------------------------------------------------
+  let x = 2 + 3 * 4;
+  console.Log(x);  //BODMAS
 
 
 
