@@ -62,3 +62,5 @@ console.log(circle);
 
 // primitives - vopy by thier values
 //objects -- through their reference
+
+//objects are not iterBLE
